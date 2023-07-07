@@ -5,10 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work Timer</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   
 </head>
 <body>
-    <!-- code here -->
-
-    <script src="js/main.js"></script>
+    <h1>WORK TIMER</h1>
+    <p>Time to end session</p>
+    <h2 id="timer">00:00:00</h2>
+    <button type="button" id="resume">RESUME</button>
+    <button type="button" id="stop">STOP</button>
+    <button type="button" id="clear">CLEAR</button>
+    <br><br><br><br><br>
+    <button type="button" class="basic" value="1800">30min</button>
+    <button type="button" class="basic" value="2700">45min</button>
+    <button type="button" class="basic" value="3600">1h</button>
+    <button type="button" class="basic" value="5400">1h 30min</button>
+    <button type="button" class="basic" value="7200">2h</button>
+    <h3>SET TIME: <input type="time" id="setTime" step="1"></h3>
+    <button type="button" id="startTimer">START TIMER</button>
+    <script src="js/main.js" type="module"></script>
+    <audio id="bell" src="bell.mp3" preload="auto"></audio>
 </body>
 </html>

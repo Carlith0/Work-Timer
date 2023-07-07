@@ -1,0 +1,33 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2e9e4;
+    font-family: 'Bacasime Antique', serif;
+    padding: 5em;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    margin-top: 2em;
+}
+p{
+    padding-top: 5em;
+}
+
+#startTimer{
+    margin-top: 2em;
+    padding: 5px 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
